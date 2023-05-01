@@ -1,140 +1,318 @@
 <!DOCTYPE html>
 <html lang="en" class="no-js">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Wholydrops ~ Fung-tional Fungamentals </title>
-        <meta name="description" content="Some inspiration for text animations on scroll." />
-        <meta name="keywords" content="typography, animation, on-scroll, gsap, ScrollTrigger" />
-        <meta name="author" content="Codrops" />
-        <link rel="shortcut icon" href="favicon.ico">
-        <link rel="stylesheet" href="https://use.typekit.net/zda3gdw.css">
-        <link rel="stylesheet" type="text/css" href="css/base.css" />
-        <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
-        <script>
-            document.documentElement.className = "js";
-            var supportsCssVars = function() { var e, t = document.createElement("style"); return t.innerHTML = "root: { --tmp-var: bold; }", document.head.appendChild(t), e = !!(window.CSS && window.CSS.supports && window.CSS.supports("font-weight", "var(--tmp-var)")), t.parentNode.removeChild(t), e };
-            supportsCssVars() || alert("Please view this demo in a modern browser that supports CSS Variables.");
-        </script>
-         
-    </head>
-    <body class="demo-2 loading">
-        <main>
-            <div class="frame">
-                <div class="frame__title">
-                    <a aria-label="Back to the article" class="frame__title-back" href="#">
-                        <span>Shop</span>
-                        <svg width="18px" height="18px" viewBox="0 0 24 24">
-                            <path vector-effect="non-scaling-stroke" d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"></path>
-                        </svg>
-                    </a>
-                </div>
-                <a class="frame__prev" href="#">Links</a>
-                <nav class="frame__demos">
-                    <a href="#">Research</a>
-                    
-                </nav>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Wholydrops ~ Fung-tional Fungamentals</title>
+    <meta
+      name="description"
+      content="Looking for the best mushroom extracts and supplements? Our mushroom extracts include cordyceps, reishi, chaga, lion's mane, turkey tail, shiitake, and maitake mushrooms in various forms like powder, capsules, and tinctures. Explore the benefits of mushroom supplements for immunity, anxiety, weight loss, energy, and brain health. Buy now and enjoy the natural goodness of mushrooms!"
+    />
+    <meta
+      name="keywords"
+      content="mushroom extracts, mushroom supplements, cordyceps mushroom, reishi mushroom, chaga mushroom, lion's mane mushroom, turkey tail mushroom, shiitake mushroom, maitake mushroom, mushroom powder, mushroom extract powder, mushroom tea, mushroom coffee, mushroom capsules, mushroom tincture, mushroom supplement benefits, mushroom for immunity, mushroom for anxiety, mushroom for weight loss, mushroom for energy, mushroom for brain."
+    />
+    <meta name="author" content="Wholydrops" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png" />
+    <link rel="manifest" href="site.webmanifest" />
+    <meta name="theme-color" content="#ffffff" />
+    <link rel="stylesheet" href="https://use.typekit.net/zda3gdw.css" />
+    <link rel="stylesheet" type="text/css" href="css/base.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+      document.documentElement.className = "js";
+      var supportsCssVars = function () {
+        var e,
+          t = document.createElement("style");
+        return (
+          (t.innerHTML = "root: { --tmp-var: bold; }"),
+          document.head.appendChild(t),
+          (e = !!(
+            window.CSS &&
+            window.CSS.supports &&
+            window.CSS.supports("font-weight", "var(--tmp-var)")
+          )),
+          t.parentNode.removeChild(t),
+          e
+        );
+      };
+      supportsCssVars() ||
+        alert(
+          "Please view this demo in a modern browser that supports CSS Variables."
+        );
+    </script>
+  </head>
+
+  <body class="demo-2 loading">
+    <main>
+      <div class="frame">
+        <div class="frame__title">
+          <a
+            aria-label="Back to the article"
+            class="frame__title-back"
+            href="#"
+          >
+            <span>Shop</span>
+            <svg width="18px" height="18px" viewBox="0 0 24 24">
+              <path
+                vector-effect="non-scaling-stroke"
+                d="M18.25 15.5a.75.75 0 00.75-.75v-9a.75.75 0 00-.75-.75h-9a.75.75 0 000 1.5h7.19L6.22 16.72a.75.75 0 101.06 1.06L17.5 7.56v7.19c0 .414.336.75.75.75z"
+              ></path>
+            </svg>
+          </a>
+        </div>
+        <a class="frame__prev" href="#">Links</a>
+        <nav class="frame__demos">
+          <a href="#">Research</a>
+        </nav>
+      </div>
+      <div class="intro">
+        <h1 class="intro__title">
+          <span class="intro__title-pre">Wholydrops</span>
+          <span class="intro__title-sub">Functional Fungamentals</span>
+        </h1>
+        <div class="logo">
+          <img src="./logo_notext.svg" />
+        </div>
+        <span class="intro__info" data-splitting data-effect22
+          >Please scroll slowly for the full experience.</span
+        >
+      </div>
+      <div class="content">
+        <h2
+          class="content__title content__title--left"
+          data-splitting
+          data-effect16
+        >
+          <p class="font-small">
+            “What causes disease? Why does it come to some people who seem perfectly healthy, despite their best efforts to take care of themselves? Is good health just the absence of disease, or something greater?”
+            <br />-Christopher Hobbs
+          </p>
+
+          <p class="font-small">
+            In 2018, our interest in herbalism and natural health led us to begin researching how people have used fungi for healing and health in different cultures around the world. We also started combing the scientific literature for studies that might show the ways in which fungi affect our nutrition, metabolism, and immunity. This latter idea really struck us.
+          </p>
+        </h2>
+      </div>
+      <div class="content">
+        <h2 class="content__title" data-splitting data-effect17>
+          <span>Healing</span><span>Fungi</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          Fungi are medicinal because they affect our nutrition, metabolism, and
+          immunity. Mushrooms and fungi could activate many aspects of our
+          immune response, whose fundamental purpose is to protect us from
+          pathogenic types of viruses and bacteria. To the ancients, fungi like
+          reishi could help remove these pathogens and restore healthy balance
+          throughout our body’s systems, enabling us to maintain homeostasis.
+          Mushrooms and fungi could activate many aspects of our immune
+          response, whose fundamental purpose is to protect us from pathogenic
+          types of
+        </p>
+
+        <p>
+          Fungi interact with our body to activate global immune responses, help
+          calm our nervous system, benefit our cardiovascular system, and
+          protect us from toxins and stresses in our environment, all the while
+          supplying important nutrients.
+        </p>
+      </div>
+      <div class="content">
+        <h2 class="content__title" data-splitting data-effect18>
+          <span class="font-16 font-upper">Fights Viruses & Fungus</span
+          ><span class="font-16 font-upper">Powerful Antioxidants</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          Beta-glucans occur in every species of mushroom, providing an immune
+          boost. Other active compounds in fungi that are less studied for their
+          health benefits are smaller, low-­molecular-weight compounds. The two
+          most-studied compounds in fungi are terpenes and phenolic compounds.
+          These are common in both plants and fungi, and a number of phenolic
+          compounds in edible fungi have been studied for their antioxidant and
+          anti-inflammatory properties. Much more research is needed, but
+          fortunately, most of the terpenes and phenolic compounds seem to have
+          beneficial properties and low toxicity.
+        </p>
+      </div>
+      <div class="content">
+        <h2 class="content__title" data-splitting data-effect19>
+          <span class="font-21 font-upper">BETA</span
+          ><span class="font-15 font-upper">GLUCANS</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          Some of the components that make up the fiber in fungi help modulate
+          the immune system. These components, called immunomodulators, are
+          found in the cell walls of all fungi. Specifically, the fiber in the
+          cell walls of all fungi is partly composed of glucans, which are long
+          chains of glucose molecules (and a type of polysaccharide) that are
+          often indigestible to humans. There are two major types of glucans —
+          alpha-glucans and beta-­glucans — so-called because of how their
+          attached glucose units are oriented.
+        </p>
+      </div>
+      <div class="content">
+        <h2 class="content__title" data-splitting data-effect20>
+          <span class="font-22 font-upper">Immuno</span
+          ><span class="font-15 font-upper">modulation</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          Research over the last few decades, and especially in the past 5 to 10
+          years, has clearly shown the significant effect fungal beta-­glucans
+          have on the immune system — for cancer treatment; to increase our
+          resistance to viral, bacterial, and even fungal infections; and for
+          restoration of damaged bone marrow, where immune stem cells that can
+          replenish and “reboot” our immune system are produced. A tremendous
+          worldwide research effort has demonstrated that fungal beta-glucans
+          work as an immunomodulating agent through the activation of innate
+          immune cells such as macrophages, dendritic cells, granulocytes, and
+          natural killer cells.
+        </p>
+      </div>
+      <div class="content content--full">
+        <h2 class="content__title" data-splitting data-effect21>
+          <span class="font-20">Double</span
+          ><span class="font-18">Extraction</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          Hot Water to Release the Active Compounds + Alcohol to capture the
+          non-water soluble compounds(terpenes & triterpenes)
+        </p>
+        <p>
+          In order to access the active compounds in fungal cell walls, we must
+          heat mushrooms before consuming them. Alcohol is a great solvent for
+          extracting and preserving the low-molecular-weight compounds such as
+          the diterpenes in lion’s mane and the triterpenes in reishi.
+        </p>
+      </div>
+      <div class="content content--full">
+        <h2 class="content__title" data-splitting data-effect22>
+          <span class="font-23 font-upper">Commitment</span
+          ><span class="font-upper font-16">to</span
+          ><span class="font-upper font-23">Quality</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          We understand that sourcing and extracting functional mushrooms can be
+          difficult, which is why we prioritize quality in every step of our
+          process. We only use the highest quality mushrooms and follow strict
+          standards for sourcing and extraction to ensure our products are
+          effective and natural.
+        </p>
+      </div>
+      <div class="content content--full">
+        <h2 class="content__title" data-splitting data-effect23>
+          <span class="font-upper font-16">fung-tional</span
+          ><span class="font-upper font-16">tincture</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          A mushroom tincture is a concentrated liquid extract that's made by
+          soaking dried mushrooms, from a variety of mushroom species, including
+          reishi, lion's mane, and chaga in a solvent—typically alcohol and/or
+          water. This process unlocks the active ingredients in the mushrooms,
+          leaving you with a potent liquid that can be dosed with a pipette. The
+          beneficial compounds from the mushrooms such as beta-glucans,
+          polysaccharides, and triterpenoids that support immune function,
+          cognitive health, and overall wellbeing are concentrated into the
+          tincture.
+        </p>
+      </div>
+      <div class="content content--full">
+        <h2 class="content__title" data-splitting data-effect24>
+          <span class="font-15 font-upper">Extracts</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          A mushroom tincture is a concentrated liquid extract that's made by
+          soaking dried mushrooms, from a variety of mushroom species, including
+          reishi, lion's mane, and chaga in a solvent—typically alcohol and/or
+          water. This process unlocks the active ingredients in the mushrooms,
+          leaving you with a potent liquid that can be dosed with a pipette. The
+          beneficial compounds from the mushrooms such as beta-glucans,
+          polysaccharides, and triterpenoids that support immune function,
+          cognitive health, and overall wellbeing are concentrated into the
+          tincture.
+        </p>
+      </div>
+      <div class="content">
+        <h2
+          class="content__title content__title--left"
+          data-splitting
+          data-effect25
+        >
+          <span class="font-13 font-medium font-height-medium">
+            Your body is working 10X hard than it used to.<br />
+            Our lives are designed for burnout. <br />
+            Before there were pills & injections, there were…Tinctures.<br />
+          </span>
+        </h2>
+      </div>
+      <div class="content content--full">
+        <h2 class="content__title" data-splitting data-effect26>
+          <span class="font-upper font-19">Our</span
+          ><span class="font-upper font-23">Extracts</span>
+        </h2>
+      </div>
+      <div class="content">
+        <p>
+          Empower your health and wellbeing with natural functional mushroom
+          extracts from Wholy Drops. Our high-quality supplements are carefully
+          sourced and extracted for maximum effectiveness.
+        </p>
+        <div class="cta_btn">
+          <button>Shop
+            <div class="star-1">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
             </div>
-            <div class="intro">
-                <h1 class="intro__title">
-                    <span class="intro__title-pre">Wholydrops</span>
-                    <span class="intro__title-sub">Fung-tional Fungamentals<sup><small>*</small></sup></span>
-                </h1>
-                <span class="intro__info" data-splitting data-effect22>Please scroll moderately to fully experience the animations</span>
+            <div class="star-2">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
             </div>
-            <div class="content">
-                <h2 class="content__title content__title--left" data-splitting data-effect16>
-                    <p class="font-small">What causes disease? Why does it come to some people who seem perfectly healthy, despite their best efforts to take care of themselves in a good way? Is good health just the absence of disease, or something greater?
-                    </p>
-                    <p class="font-small">In 2019, our interest in herbalism and natural health led us to begin researching how people have used fungi for healing and health in different cultures around the world. We also started combing the scientific literature for studies that might show the ways in which fungi affect our nutrition, metabolism, and immunity. This latter idea really struck us. </p>
-                </h2>
+            <div class="star-3">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
             </div>
-            <div class="content">
-                <h2 class="content__title" data-splitting data-effect17><span>Stubborn</span><span>Naivety</span></h2>
+            <div class="star-4">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
             </div>
-            <div class="content">
-                <p>Mushrooms and fungi could activate many aspects of our immune response, whose fundamental purpose is to protect us from pathogenic types of viruses and bacteria. According to traditional Chinese medicine, disease-promoting factors are created in our bodies through our constitution, diet, and metabolism, as well as external influences from the environment like hot, cold, dry, and damp. To the ancients, fungi like reishi could help remove these pathogens and restore healthy balance throughout our body’s systems, enabling us to maintain homeostasis.</p>
+            <div class="star-5">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
             </div>
-            <div class="content">
-                <h2 class="content__title" data-splitting data-effect18><span class="font-16 font-upper">Surrender to reality</span><span class="font-16 font-upper">Step into the light</span></h2>
+            <div class="star-6">
+              <svg xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 784.11 815.53" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" version="1.1" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"><defs></defs><g id="Layer_x0020_1"><metadata id="CorelCorpID_0Corel-Layer"></metadata><path d="M392.05 0c-20.9,210.08 -184.06,378.41 -392.05,407.78 207.96,29.37 371.12,197.68 392.05,407.74 20.93,-210.06 184.09,-378.37 392.05,-407.74 -207.98,-29.38 -371.16,-197.69 -392.06,-407.78z" class="fil0"></path></g></svg>
             </div>
-            <div class="content">
-                <p>”It is estimated that there are 2.2 to 3.8 million species of fungi on Earth, of which only about 4 percent have been documented and described”</p>
-            </div>
-            <div class="content">
-                <h2 class="content__title" data-splitting data-effect19><span class="font-21 font-upper">Ancient</span><span class="font-21 font-upper">Origins</span></h2>
-            </div>
-            <div class="content">
-                <p>fungi have been around for about 1 billion years, according to a recent discovery based on fossils collected in northern Canada by an international team of researchers.1 The previous estimate was about 460 million years. This research shows that fungi appeared on land prior to the evolution of flowering plants, prior to the rise of insects, and long before the evolution of mammals. Other research shows that our distant ancestors were interacting with fungi. It’s no wonder, then, that we have developed sensors throughout our body to detect the presence of fungi!</p>
-            </div>
-            <div class="content">
-                <h2 class="content__title" data-splitting data-effect20><span class="font-22 font-upper">Waking</span><span class="font-12 font-upper">Life</span></h2>
-            </div>
-            <div class="content">
-                <p>Currently, the published scientific literature on turkey tail fungus alone is likely to rival all the combined literature that existed in 1985 on all species of fungi used for medicine by all world cultures. In 1985, about 70 studies were published based on the keywords “medicinal mushrooms” in the scientific literature. By 2019, that had grown to about 4,400.</p>
-            </div>
-            <div class="content content--full">
-                <h2 class="content__title" data-splitting data-effect21><span class="font-20">Beauty</span><span class="font-18">remains</span></h2>
-            </div>
-            <div class="content">
-                <p>Hippocrates is thought to have said, “Let your food be your medicine and your medicine be your food.” This statement is more relevant than ever, now that modern science has found so many active and healing compounds in common foods like curcumin in turmeric and curry, allicin in garlic, quercetin in apples and onions, and the cancer-preventive compounds in brassica vegetables like broccoli and kale called Se-methylselenocysteine and glucosinolates.</p>
-            </div>
-            <div class="content content--full">
-                <h2 class="content__title" data-splitting data-effect22><span class="font-23 font-upper">Commitment</span><span class="font-upper font-16">to</span><span class="font-upper font-23">Quality</span></h2>
-            </div>
-            <div class="content">
-                <p>We understand that sourcing and extracting functional mushrooms can be difficult, which is why we prioritize quality in every step of our process. We only use the highest quality mushrooms and follow strict standards for sourcing and extraction to ensure our products are effective and natural.</p>
-            </div>
-            <div class="content content--full">
-                <h2 class="content__title" data-splitting data-effect23><span class="font-upper font-22">Fung-</span><span class=" font-upper font-20">tionally</span><span class=" font-upper font-18">Concentrated</span></h2>
-            </div>
-            <div class="content">
-                <p>When we let go of our attachment to outcomes, our fear of the unknown, and our need for certainty, we open ourselves up to the infinite possibilities and potentialities of life.</p>
-            </div>
-            <div class="content content--full">
-                <h2 class="content__title" data-splitting data-effect24><span class="font-15 font-upper">Extracts</span></h2>
-            </div>
-            <div class="content">
-                <p>A mushroom tincture is a concentrated liquid extract that's made by soaking dried mushrooms, from a variety of mushroom species, including reishi, lion's mane, and chaga in a solvent—typically alcohol and/or water. This process unlocks the active ingredients in the mushrooms, leaving you with a potent liquid that can be dosed with a pipette. The beneficial compounds from the mushrooms such as beta-glucans, polysaccharides, and triterpenoids that support immune function, cognitive health, and overall wellbeing are concentrated into the tincture. </p>
-            </div>
-            <div class="content">
-                <h2 class="content__title content__title--left" data-splitting data-effect25>
-                   <span class="font-13 font-medium font-height-medium">
-                    Your body is working 10X hard than it used to.<br>
-                    Our lives are designed for burnout. <br>
-                    Before there were pills & injections, there were…Tinctures.<br>
-                    Support it with Functional Fungi.<br>
-                    </span>
-                </h2>
-            </div>
-            <div class="content content--full">
-                <h2 class="content__title" data-splitting data-effect26><span class="font-upper font-19">Our</span><span class="font-upper font-23">Extracts</span></h2>
-            </div>
-            <div class="content">
-                <p>Empower your health and wellbeing with natural functional mushroom extracts from Wholy Drops. Our high-quality supplements are carefully sourced and extracted for maximum effectiveness.
-                </p>
-                <div class="cta_btn">
-                    <button> Explore
-                    </button>
-                </div>
-                
-            </div>
-            <div class="content">
-                <h2 class="content__title" data-splitting data-effect27>
-                <span class="font-upper font-19 font-medium">
-                    Boost Immunity. 
-                    Improve Memory.
-                    Fight Cancer. 
-                    Stop Infection. 
-                    Expand your Consciousness. </span>
-                </h2>
-            </div>
-             
-             
-           
-            <div class="intro"><p><a class="line" href="#">SUBSTACK</a></p></div>
-        </main>
-        <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
-        <script type="module" src="js/index2.js"></script>
-    </body>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h2 class="content__title" data-splitting data-effect27>
+          <span class="font-upper font-19 font-medium">
+            BOOST IMMUNITY. IMPROVE MEMORY. FIGHT CANCER. STOP INFECTION. EXPAND
+            YOUR CONSCIOUSNESS.
+          </span>
+        </h2>
+      </div>
+
+     <div class="content">
+      <div class="container cta_btn">
+        <iframe src="https://wholydrops.substack.com/embed" width="480" height="320" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+      </div>
+     </div>
+    </main>
+    <script src="https://tympanus.net/codrops/adpacks/cda_sponsor.js"></script>
+    <script type="module" src="js/index2.js"></script>
+  </body>
 </html>
